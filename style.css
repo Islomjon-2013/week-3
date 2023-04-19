@@ -89,6 +89,20 @@ header {
   margin: 0 auto;
   border: none;
 }
+#about {
+  padding: 100px 0px;
+  background-color: #000;
+}
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.gallery img {
+  margin: 20px 20px;
+  max-width: 300px;
+}
 /* 
 // X-Small devices (portrait phones, less than 576px)
 
